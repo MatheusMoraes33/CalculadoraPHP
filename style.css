@@ -1,0 +1,65 @@
+*{
+    margin: 0px;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background: url(../Php/img/Universo.jpg) no-repeat;
+}
+
+fieldset{
+    width: 380px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: chartreuse;  
+    padding: 14px;
+     
+    
+}
+legend{
+    text-align: center;
+    border: solid black 1px;
+    background-color: rgba(220, 230, 228, 0.932);
+    width: 150px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    margin: 10px;
+}
+
+.img{
+    background: url(../Php/img/matematicaImagem.jpg);
+    width: 580px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+input[type=submit]{
+    background-color: chocolate;
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 80px; 
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+  background-color: aqua;
+}
+input[type=text]{
+    border-radius: 10px;
+    border: solid black 1px;
+    width: 180px;
+    text-align: center;
+}
+
+hr{
+    margin: 12px;
+}
